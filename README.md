@@ -1,2 +1,2 @@
 # few-hypo
-Dataset and code for OCHAC and few-shot learning 
+Detecting Hypocrisy Accusations in Online Sustainability Debates, Subtype Definitions & Few Shot Learning
