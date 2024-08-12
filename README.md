@@ -10,11 +10,13 @@ The climate crisis is a significant issue in online discussions, where hypocrisy
 This repository contains the following files and resources related to our study on detecting hypocrisy accusations in online sustainability debates:
 
 ## Labels:
+
 - No acc  - 0
 - PMH     - 1
 - PH      - 2
 - Neither - 3
 
+## Files: 
 
 - **PHasPMH.csv**: Contains comments originally labeled as Personal Moral Hypocrisy (PMH - 1) but misclassified as Political Hypocrisy (PH - 2).
 - **PMHasPH.csv**: Contains comments originally labeled as Political Hypocrisy (PH - 1) but misclassified as Personal Moral Hypocrisy (PMH - 2).
