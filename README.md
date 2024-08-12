@@ -9,12 +9,17 @@ The climate crisis is a significant issue in online discussions, where hypocrisy
 
 This repository contains the following files and resources related to our study on detecting hypocrisy accusations in online sustainability debates:
 
-### Data Files
+## Labels:
+- No acc  - 0
+- PMH     - 1
+- PH      - 2
+- Neither - 3
 
-- **PHasPMH.csv**: Contains comments originally labeled as Personal Moral Hypocrisy (PMH) but misclassified as Political Hypocrisy (PH).
-- **PMHasPH.csv**: Contains comments originally labeled as Political Hypocrisy (PH) but misclassified as Personal Moral Hypocrisy (PMH).
-- **false_negatives.csv**: Contains comments that are actual hypocrisy accusations but were incorrectly classified as non-accusations.
-- **false_positives.csv**: Contains comments that are not hypocrisy accusations but were incorrectly classified as accusations.
+
+- **PHasPMH.csv**: Contains comments originally labeled as Personal Moral Hypocrisy (PMH - 1) but misclassified as Political Hypocrisy (PH - 2).
+- **PMHasPH.csv**: Contains comments originally labeled as Political Hypocrisy (PH - 1) but misclassified as Personal Moral Hypocrisy (PMH - 2).
+- **false_negatives.csv**: Contains comments that are actual hypocrisy accusations (1,2,3) but were incorrectly classified as non-accusations (0).
+- **false_positives.csv**: Contains comments that are not hypocrisy accusations (0) but were incorrectly classified as accusations (1,2,3).
 - **ochac_data.csv**: The **Online Climate Hypocrisy Accusation Corpus (OCHAC)**, a corpus of 420 expert-annotated Reddit comments from climate debates.
 
 ### Experiment Results
