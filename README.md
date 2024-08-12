@@ -1,4 +1,4 @@
-# Few Hypocrites
+# Few Hypocrites :speaking_head: :earth_africa:
 Detecting Hypocrisy Accusations in Online Sustainability Debates, Subtype Definitions & Few-Shot Learning
 
 ## Abstract
