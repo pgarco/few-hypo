@@ -15,7 +15,7 @@ This repository contains the following files and resources related to our study 
 - **PMHasPH.csv**: Contains comments originally labeled as Political Hypocrisy (PH) but misclassified as Personal Moral Hypocrisy (PMH).
 - **false_negatives.csv**: Contains comments that are actual hypocrisy accusations but were incorrectly classified as non-accusations.
 - **false_positives.csv**: Contains comments that are not hypocrisy accusations but were incorrectly classified as accusations.
-- **ochac_data.csv**: The **Online Climate Hypocrisy Accusation Corpus (OCHAC)**, a dataset of 420 expert-annotated Reddit comments from climate debates.
+- **ochac_data.csv**: The **Online Climate Hypocrisy Accusation Corpus (OCHAC)**, a corpus of 420 expert-annotated Reddit comments from climate debates.
 
 ### Experiment Results
 
@@ -31,5 +31,5 @@ This repository is intended for researchers and practitioners interested in expl
 
 ## Citation
 
-If you use any part of this work, especially the OCHAC dataset or the few-shot learning results, please cite our paper as follows:
+If you use any part of this work, especially the OCHAC corpus or the few-shot learning results, please cite our paper as follows:
 
