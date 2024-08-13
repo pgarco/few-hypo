@@ -16,21 +16,22 @@ This repository contains the following files and resources related to our study 
 - PH      - 2
 - Neither - 3
 
-## Files: 
+## Folders: 
 
+### Analysis notebooks 
+- **error-analysis.ipynb**: Jupyter Notebook to run few-shot learning experiment 
+- **llm-prompt.ipynb**: Jupyter Notebook to run error analysis
+
+### data files
+- **chac_data.csv**: The **Climate Hypocrisy Accusation Corpus (CHAC)**, a corpus of 420 expert-annotated Reddit comments from climate debates.
+- **few_hypo_llm_outputs.csv**: This file contains the results of our few-shot learning experiments with different LLMs for hypocrisy accusation detection.
+
+### Error analysis files
 - **PHasPMH.csv**: Contains comments originally labeled as Personal Moral Hypocrisy (PMH - 1) but misclassified as Political Hypocrisy (PH - 2).
 - **PMHasPH.csv**: Contains comments originally labeled as Political Hypocrisy (PH - 1) but misclassified as Personal Moral Hypocrisy (PMH - 2).
 - **false_negatives.csv**: Contains comments that are actual hypocrisy accusations (1,2,3) but were incorrectly classified as non-accusations (0).
 - **false_positives.csv**: Contains comments that are not hypocrisy accusations (0) but were incorrectly classified as accusations (1,2,3).
-- **chac_data.csv**: The **Climate Hypocrisy Accusation Corpus (CHAC)**, a corpus of 420 expert-annotated Reddit comments from climate debates.
 
-### Experiment Results
-
-- **few_hypo_llm_outputs.csv**: This file contains the results of our few-shot learning experiments with different LLMs for hypocrisy accusation detection.
-
-### Notebooks
-
-- **llm-prompt.ipynb**: The Jupyter notebook that contains the prompts used for the few-shot learning experiments with Large Language Models (LLMs).
 
 ## Usage
 
