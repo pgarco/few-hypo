@@ -22,7 +22,7 @@ This repository contains the following files and resources related to our study 
 - **error-analysis.ipynb**: Jupyter Notebook to run few-shot learning experiment 
 - **llm-prompt.ipynb**: Jupyter Notebook to run error analysis
 
-### data files
+### Data files
 - **chac_data.csv**: The **Climate Hypocrisy Accusation Corpus (CHAC)**, a corpus of 420 expert-annotated Reddit comments from climate debates.
 - **few_hypo_llm_outputs.csv**: This file contains the results of our few-shot learning experiments with different LLMs for hypocrisy accusation detection.
 
