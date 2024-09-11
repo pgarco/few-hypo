@@ -26,14 +26,9 @@ This repository contains the following files and resources related to our study 
 - **chac_data.csv**: The **Climate Hypocrisy Accusation Corpus (CHAC)**, a corpus of 420 expert-annotated Reddit comments from climate debates.
 - **few_hypo_llm_outputs.csv**: This file contains the results of our few-shot learning experiments with different LLMs for hypocrisy accusation detection.
 
-### Error analysis files
-- **PHasPMH.csv**: Contains comments originally labeled as Personal Moral Hypocrisy (PMH - 1) but misclassified as Political Hypocrisy (PH - 2).
-- **PMHasPH.csv**: Contains comments originally labeled as Political Hypocrisy (PH - 1) but misclassified as Personal Moral Hypocrisy (PMH - 2).
-- **false_negatives.csv**: Contains comments that are actual hypocrisy accusations (1,2,3) but were incorrectly classified as non-accusations (0).
-- **false_positives.csv**: Contains comments that are not hypocrisy accusations (0) but were incorrectly classified as accusations (1,2,3).
-
-
 ## Usage
+
+To gain access to the full dataset, please refer to the Hugging Face [https://huggingface.co/datasets/Myrthe/RedditEuropeanSustainabilityInitiatives] dataset and accept terms and conditions. Files in the github repository do not contain the original comment body to protect privacy, this can be accessed via comment_id that is available in the Hugging Face dataset. 
 
 This repository is intended for researchers and practitioners interested in exploring hypocrisy accusation detection within online climate change debates. The provided datasets and experiment results can be used for further research, replication studies, or development of new models.
 
